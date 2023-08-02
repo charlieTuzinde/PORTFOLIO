@@ -95,9 +95,9 @@ pad: 10px;
      
 }
 img{
-    position:fixed;
+    position:relative;
     float: right;
-    left: 40%;
+    left: 50%;
     background:transparent;
     padding: 23px;
     margin-left:52px ;
@@ -146,8 +146,16 @@ border-radius: 10px;
     
 }
 
+
+.btn{
+    position: relative;
+    left: 2px;
+    font-size: 19px; 
+    top: 390px;
+}
+
 .par{
     position: absolute;
     left: 172px;
-    font-size: 30px;
+    font-size: 19px;
 }
