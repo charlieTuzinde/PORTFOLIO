@@ -1,0 +1,68 @@
+html{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-color: rgb(187, 191, 195);
+   
+}
+nav{
+    background: transparent;
+    height: 80px;
+    width: 100%;
+}
+
+
+
+nav ul{
+    padding-top: 4px;
+    float: left;
+    margin: right;
+
+}
+nav ul li{
+    background-color:rgb(171, 168, 168);
+    
+    display:inline-block ;
+    top:20px ;
+    line-height: 40px;
+    margin: 0 29px;
+
+}
+
+
+
+nav ul li a{
+    color: rgb(17, 16, 16);
+    font-size: 17px;
+    font-weight: bold;
+    padding: 7px 13px;
+    border-radius:3px ;
+    text-transform: uppercase;
+
+
+}
+
+
+
+
+a.active,a:hover{
+    background: #0a2b3b;
+    transition: 1s;
+}
+
+form{
+    width: 99%;
+    max-width: 700px;
+    align-items: center;
+    justify-content: center;
+    float: none;
+    margin-left: 100px;
+}
+.btn{
+    font-size: 20px;
+    color: black;
+    background-color: aquamarine;
+}
+fieldset{
+    width: 99%;
+    max-width: 700px;
+}

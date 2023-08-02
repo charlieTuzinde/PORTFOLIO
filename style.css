@@ -1,161 +1,188 @@
-  *{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box; 
+  * {
+      padding: 0;
+      margin: 0;
+      text-decoration: none;
+      list-style: none;
+      box-sizing: border-box;
 
-}
+  }
 
-body{
-    font-family:montserrat;
-   
-}
-nav{
-    background: transparent;
-    height: 80px;
-    width: 100%;
-}
+  body {
+      background-color: #cad5da;
+      background-image: url(bg.jpg);
+      background-repeat: no-repeat;
+      font-family: montserrat;
 
+  }
 
-
-nav ul{
-    padding-top: 4px;
-    float: left;
-    margin: right;
-
-}
-nav ul li{
-    background-color:rgb(171, 168, 168);
-    
-    display:inline-block ;
-    top:20px ;
-    line-height: 40px;
-    margin: 0 29px;
-
-}
+  nav {
+      background: transparent;
+      height: 80px;
+      width: 100%;
+  }
 
 
 
-nav ul li a{
-    color: rgb(17, 16, 16);
-    font-size: 17px;
-    font-weight: bold;
-    padding: 7px 13px;
-    border-radius:3px ;
-    text-transform: uppercase;
+  nav ul {
+      padding-top: 4px;
+      float: left;
+      margin: right;
 
+  }
 
-}
+  nav ul li {
+      background-color: rgb(171, 168, 168);
 
+      display: inline-block;
+      top: 20px;
+      line-height: 40px;
+      margin: 0 29px;
 
-
-
-a.active,a:hover{
-    background: #0a2b3b;
-    transition: 1s;
-}
-
-H2{
-    position:fixed;
-    float: right;
-    left: 54%;
-    top: 22px;
-    background: #cad5da;
-    padding: 2PX;
-    margin-left:12px ; 
-}
-button{
-    position: relative;
-bottom: -700px;
-border-radius: 12px;
-pad: 10px;
-    font-size: 30px;
-    font-weight: bolder;
-    background-color: #0c0c0c;
-    color: rgb(17, 17, 17);
-    margin: 1 10px;
-    text-decoration: none;
-    float:left; 
-
- 
-}
-.contact{
-    position: relative;
-    bottom: -250px;
-    border-radius: 12px;
-    pad: 10px;
-        font-size: 30px;
-        font-weight: bolder;
-        background-color: #949191;
-        color: rgb(17, 17, 17);
-        margin: 1 10px;
-        text-decoration: none;
-        float:left; 
-     
-}
-img{
-    position:relative;
-    float: right;
-    left: 50%;
-    background:transparent;
-    padding: 23px;
-    margin-left:52px ;
-}
-.profile{
-    float: right;
-    margin: 0 203px;
-    margin-top: 42px;
-    margin-bottom: 12px;
-    margin-left: 190px;
-    color: #0a2b3b;
-    font-size: 25px;
-}
-span{
-    color: rgb(12, 130, 130);
-    font-weight: bold;
-    font-style: oblique;
-}
-.card{
-    position: fixed;
-    float: right;
-}
-.icons{
-    font-size: 60px;
-    color: rgb(17, 17, 17);
-    margin: 0 10px;
-    text-decoration: none;
-    float: right;
-}
+  }
 
 
 
-.icons:hover{
-    color: hwb(192 4% 85% / 0.62);
-    transition: 0.2s;
-}
-
-button{
-    padding-top: 4px;
-    float: left;
-    margin: right;
-    background:grey;
-
-border-radius: 10px;
-
-    
-}
+  nav ul li a {
+      color: rgb(17, 16, 16);
+      font-size: 17px;
+      font-weight: bold;
+      padding: 7px 13px;
+      border-radius: 3px;
+      text-transform: uppercase;
 
 
-.btn{
-    position: relative;
-    left: 2px;
-    font-size: 19px; 
-    top: 390px;
-}
+  }
 
-.par{
-    position: absolute;
-    left: 172px;
-    font-size: 19px;
-}
+
+
+
+  a.active,
+  a:hover {
+      background: #0a2b3b;
+      transition: 1s;
+  }
+
+  H2 {
+      position: fixed;
+      float: right;
+      left: 54%;
+      top: 22px;
+      background: #cad5da;
+      padding: 2PX;
+      margin-left: 12px;
+  }
+
+  button {
+      position: relative;
+      bottom: -700px;
+      border-radius: 12px;
+      pad: 10px;
+      font-size: 30px;
+      font-weight: bolder;
+      background-color: #0c0c0c;
+      color: rgb(17, 17, 17);
+      margin: 1 10px;
+      text-decoration: none;
+      float: left;
+
+
+  }
+
+  .contact {
+      position: relative;
+      bottom: -450px;
+      border-radius: 12px;
+      pad: 10px;
+      font-size: 35px;
+      font-weight: bolder;
+      background-color: #949191;
+      color: rgb(17, 17, 17);
+      margin: 22 10px;
+      text-decoration: none;
+      float: right;
+      margin-bottom: 40px;
+      left: 380px;
+  }
+
+  img {
+      position: relative;
+      float: right;
+      left: 50%;
+      background: transparent;
+      padding: 23px;
+      margin-left: 52px;
+  }
+
+  .profile {
+      float: right;
+      margin: 0 203px;
+      margin-top: 42px;
+      margin-bottom: 12px;
+      margin-left: 190px;
+      color: #0a2b3b;
+      font-size: 25px;
+  }
+
+  span {
+      color: rgb(12, 130, 130);
+      font-weight: bold;
+      font-style: oblique;
+  }
+
+  .card {
+      position: fixed;
+      float: right;
+  }
+
+  .icons {
+      font-size: 60px;
+      color: rgb(17, 17, 17);
+      margin: 0 10px;
+      text-decoration: none;
+      float: right;
+  }
+
+
+
+  .icons:hover {
+      color: hwb(192 4% 85% / 0.62);
+      transition: 0.2s;
+  }
+
+  button {
+      padding-top: 4px;
+      float: left;
+      margin: right;
+      background: grey;
+
+      border-radius: 10px;
+
+
+  }
+
+
+  .btn {
+      position: relative;
+      bottom: -110px;
+      border-radius: 2px;
+      pad: 10px;
+      font-size: 35px;
+      font-weight: bolder;
+      background-color: #949191;
+      color: rgb(17, 17, 17);
+      margin: 21 2px;
+      text-decoration: underline;
+      float: right;
+      margin-bottom: 40px;
+      left: 10px;
+  }
+
+  p {
+      font-size: 22px;
+  }
+
+  .par {
+      position: absolute;
+      left: 172px;
+      font-size: 55px;
+  }
